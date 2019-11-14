@@ -1,5 +1,5 @@
 <template lang="pug">
-.hero.is-fullheight.is-primary.has-background
+.hero.is-fullheight.is-black.has-background
   img.hero-background.is-transparent(alt="Fill Murray", src="../../assets/images/casahub-header-curitiba.jpg")
   .hero-head
     nav.navbar(role="navigation", aria-label="main navigation")
@@ -10,6 +10,8 @@
 
   .hero-body
     .container
+      img(src="../../assets/images/casahub-main-print.png")
+
       h1.title.is-size-1.is-spaced.has-text-weight-light.has-text-centered
         | Seus imóveis anunciados nos melhores portais 
         strong
