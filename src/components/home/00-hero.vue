@@ -10,8 +10,6 @@
 
   .hero-body
     .container
-      img(src="../../assets/images/casahub-main-print.png")
-
       h1.title.is-size-1.is-spaced.has-text-weight-light.has-text-centered
         | Seus imóveis anunciados nos melhores portais 
         strong
@@ -20,6 +18,18 @@
         strong
           | Reduza o ciclo de vendas. 
         | Velocidade e inteligência na integração de anúncios, investimentos otimizados e melhor performance.
+      .columns
+        .column.is-half.is-offset-one-quarter
+          .section 
+            .field.has-addons
+              .control.is-expanded.has-icons-left
+                input.input.is-primary.is-medium(type='email', placeholder='Coloque seu E-mail')
+                span.icon.is-small.is-left
+                  i.fas.fa-envelope
+              .control
+                a.button.is-primary.is-medium
+                  strong Quero participar do beta
+          img(src="../../assets/images/casahub-main-print.png")
       //.item-level(:id="`hubspot-form-${hubspotFormId}`") 
 
 

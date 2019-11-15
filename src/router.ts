@@ -17,12 +17,12 @@ const router = new VueRouter({
       name: 'Home',
       component: Home,
       meta: {
-        title: 'Agência de Marketing Digital em Curitiba - s21digital',
+        title: 'Seus imóveis anunciados nos melhores portais - casahub',
         metaTags: [
           {
             name: 'description',
             content:
-              'Criação e otimização de sites em Curitiba. Marketing Digital com metodologia Growth Hacking especializado em SEO e mídia digital.',
+              'Seus imóveis anunciados nos melhores portais a partir de uma única plataforma web.',
           },
         ],
       },
