@@ -1,6 +1,6 @@
 <template lang="pug">
-.hero.is-fullheight.is-black.has-background
-  img.hero-background.is-transparent(alt="Fill Murray", src="../../assets/images/casahub-header-curitiba.jpg")
+.hero.is-fullheight.has-background
+  img.hero-background.has-two-thirds(alt="Fill Murray", src="../../assets/images/casahub-header-curitiba.jpg")
   .hero-head
     nav.navbar(role="navigation", aria-label="main navigation")
       .navbar-brand
@@ -10,12 +10,12 @@
 
   .hero-body
     .container
-      h1.title.is-size-1.is-spaced.has-text-weight-light.has-text-centered
+      h1.title.is-size-1.is-spaced.has-text-weight-light.has-text-centered.has-text-white
         | Seus imóveis anunciados nos melhores portais 
         strong
           | a partir de uma única plataforma web.
-      p.subtitle.has-text-weight-light.has-text-centered
-        strong
+      p.subtitle.has-text-weight-light.has-text-centered.has-text-white
+        strong.has-text-white
           | Reduza o ciclo de vendas. 
         | Velocidade e inteligência na integração de anúncios, investimentos otimizados e melhor performance.
       .columns
