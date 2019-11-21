@@ -29,8 +29,9 @@
               .control
                 a.button.is-primary.is-medium
                   strong Quero participar do beta
-          img(src="../../assets/images/casahub-main-print.png")
-      //.item-level(:id="`hubspot-form-${hubspotFormId}`") 
+      .columns
+        .column.is-8.is-offset-2
+            img(src="../../assets/images/casahub-main-print.png") 
 
 
   </template>
