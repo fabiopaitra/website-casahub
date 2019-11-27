@@ -33,7 +33,6 @@
         .column.is-8.is-offset-2
             img(src="../../assets/images/casahub-main-print.png") 
 
-
   </template>
 
 <script>

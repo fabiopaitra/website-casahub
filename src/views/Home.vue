@@ -3,17 +3,17 @@
     header
       hero
     main
-      //- article
+      article
         benefits
-        chartsWhat
-        chartsHow
-        certification
-        socialProof
-        reciprocity
-        companies
-        comparison
-        urgency
-        faq
+        //- chartsWhat
+        //- chartsHow
+        //- certification
+        //- socialProof
+        //- reciprocity
+        //- companies
+        //- comparison
+        //- urgency
+        //- faq
         //- mainCta
     //- footer
       mainFooter

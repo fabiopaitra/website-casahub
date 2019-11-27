@@ -28,24 +28,6 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/como-classificar-site-primeira-posicao-google',
-      name: 'Seo',
-      component: Seo,
-      meta: {
-        title: 'Como classificar em #1 seu site com SEO no Google (2019)',
-        metaTags: [
-          {
-            name: 'description',
-            content: 'Tutorial de SEO passo-a-passo avançado de como obter tráfego orgânico',
-          },
-          {
-            property: 'og:description',
-            content: 'Como classificar em #1 seu site com SEO no Google (2019)',
-          },
-        ],
-      },
-    },
-    {
       path: '/obrigado',
       name: 'Obrigado',
       component: Obrigado,
