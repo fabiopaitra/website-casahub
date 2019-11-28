@@ -4,6 +4,7 @@
       hero
     main
       article
+        brands
         benefits
         //- chartsWhat
         //- chartsHow
@@ -23,6 +24,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import hero from '@/components/home/00-hero.vue';
+import brands from '@/components/home/01-brands.vue';
 import benefits from '@/components/home/01-benefits.vue';
 import chartsWhat from '@/components/home/02-chartsWhat.vue';
 import chartsHow from '@/components/home/02-chartsHow.vue';
@@ -39,6 +41,7 @@ import mainFooter from '@/components/10-mainFooter.vue';
 @Component({
   components: {
     hero,
+    brands,
     benefits,
     chartsWhat,
     chartsHow,
