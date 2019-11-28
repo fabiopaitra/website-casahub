@@ -20,7 +20,7 @@
       h2.subtitle.has-text-weight-light.has-text-white.is-size-6-mobile
         strong.has-text-white Reduza o ciclo de vendas. 
         | Velocidade e inteligência na integração de anúncios, investimentos otimizados e melhor performance.
-      .section
+      .content
         .field.has-addons.is-hidden-mobile
           .control.is-expanded.has-icons-left
             input.input.is-primary.is-medium(type='email', placeholder='Coloque seu E-mail')
