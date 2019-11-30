@@ -1,5 +1,5 @@
 <template lang="pug">
-  div
+  div.has-background-light
     header
       hero
     main
@@ -7,12 +7,12 @@
         brands
         benefits
         //- chartsWhat
-        //- chartsHow
-        //- certification
+        chartsHow
+        certification
         //- socialProof
         //- reciprocity
         //- companies
-        //- comparison
+        comparison
         //- urgency
         //- faq
         //- mainCta
