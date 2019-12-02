@@ -1,33 +1,29 @@
 <template lang="pug">
-section
-  .columns.is-gapless
-    .column
-      figure.image
-        img(src="../../assets/images/relatorios-consolidados.png", alt="")
-    .column
-      .columns.content.container
-      .columns.content.has-background-white.container.card
-        .column.section.is-offset-1.card-content
+section.section
+  
+    .columns.is-vcentered
+      .column.is-half.is-paddingless
+        figure.image.is-16by9
+          img(src="../../assets/images/relatorios-consolidados.jpg", alt="")
+      .column.is-one-third.card.b-corner
+        .card-content
           img(src="../../assets/images/relatorrios-consolidados-icon.png", alt="")
           h4.title.is-size-1.has-text-weight-light Relatórios consolidados
           p
             strong Entenda a performance 
             | dos seus anúncios em um relatório completo de acordo com as necessidades da sua imobiliária. Entenda a performance dos seus anúncios em um relatório completo de acordo com as necessidades da sua imobiliária.
-  section
-    .columns.is-gapless
-      .column
-        .columns.content.container.margin-2
-        .columns.content.has-background-white.container.card
-          .column.section.is-offset-1.card-content
+    section.margin-3
+      .columns.is-vcentered
+        .column.is-offset-2.one-third.card.t-corner
+          .card-content
             img(src="../../assets/images/automacao-anuncios-icon.png", alt="")
             h4.title.is-size-1.has-text-weight-light Automação de anúncios
             p
               strong Entenda a performance 
-              | dos seus anúncios em um relatório completo de acordo com as necessidades da sua imobiliária. Entenda a performance dos seus anúncios em um relatório completo de acordo com as necessidades da sua imobiliária.
-      .column
-        figure.image
-          img(src="../../assets/images/automacao-anuncios.png", alt="")
-
+              | dos seus anúncios em um relatório completo de acordo com as necessidades da sua imobiliária. Entenda a performance dos seus anúncios em um relatório completo de acordo com as necessidades da sua imobiliária.            
+        .column.is-half.is-paddingless
+          figure.image.is-16by9
+            img(src="../../assets/images/automacao-anuncios.jpg", alt="")
           
           
     

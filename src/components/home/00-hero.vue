@@ -12,10 +12,10 @@
           span
           span
           span
-  .hero-body.has-background-light
+  .hero-body.has-background-grey-lighter
     .container.has-text-centered
       h1.title.is-size-1.has-text-weight-light.has-text-white.is-size-4-mobile.is-spaced
-        | Seus imóveis anunciados nos melhores portais 
+        | Seus imóveis anunciados nos melhores portais
         strong a partir de uma única plataforma web.
       h2.subtitle.has-text-weight-light.has-text-white.is-size-6-mobile
         strong.has-text-white Reduza o ciclo de vendas. 

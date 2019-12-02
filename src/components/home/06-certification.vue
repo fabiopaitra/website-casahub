@@ -1,5 +1,5 @@
 <template lang="pug">
-section.section.has-background-light.container.content
+section.section.container.content
   h2.title.is-2.has-text-centered.has-text-weight-light
     | Quem somos
   p

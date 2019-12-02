@@ -11,18 +11,16 @@ section.section.content
   .section.container
     .columns
       .column
-        .columns
-          .column
-            figure.image
-              img(src="../../assets/images/anuncie-nos-principais-portais.png", alt="")
+        .columns.is-mobile
+          .column.is-half-mobile
+            img(src="../../assets/images/anuncie-nos-principais-portais.png", alt="")
           .column
             h3.title.is-4.has-text-weight-light
               | Anuncie nos principais portais
             p
               | Nossa solução fornece um conjunto completo e integrado com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
-        .columns
-          .column
-            figure.image
+        .columns.is-mobile
+          .column.is-half-mobile
               img(src="../../assets/images/anuncie-nos-principais-portais.png", alt="")
           .column
             h3.title.is-4.has-text-weight-light
@@ -30,19 +28,17 @@ section.section.content
             p
               | Nossa solução fornece um conjunto completo e integrado com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
       .column
-        .columns
-          .column
-            figure.image
-              img(src="../../assets/images/anuncie-nos-principais-portais.png", alt="")
+        .columns.is-mobile
+          .column.is-half-mobile
+            img(src="../../assets/images/anuncie-nos-principais-portais.png", alt="")
           .column
             h3.title.is-4.has-text-weight-light
               | Acompanhe a performance
             p
               | Nossa solução fornece um conjunto completo e integrado com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
-        .columns
-          .column
-            figure.image
-              img(src="../../assets/images/anuncie-nos-principais-portais.png", alt="")
+        .columns.is-mobile
+          .column.is-half-mobile
+            img(src="../../assets/images/anuncie-nos-principais-portais.png", alt="")
           .column
             h3.title.is-4.has-text-weight-light
               | Direcione a divulgação

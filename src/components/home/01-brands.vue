@@ -1,5 +1,5 @@
 <template lang="pug">
-section.has-background-light.margin-n2
+section.has-background-grey-lighter.margin-n2
   .columns.container
     .column.is-uppercase
       h2.title.is-3.has-text-centered.has-text-weight-light
