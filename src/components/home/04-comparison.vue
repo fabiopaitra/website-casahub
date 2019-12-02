@@ -2,211 +2,67 @@
 section.section.container.content
   p.is-2.title.has-text-centered.has-text-weight-light Cresça com o plano certo
   p.subtitle.has-text-centered Tudo o que você precisa para gerenciar seus canais e automatizar suas publicações
-  .columns.is-centered.container
+  .columns.container
     .column
-      .table__wrapper
-        table.table.is-hoverable.is-striped.is-narrow
-          thead
+      .table-container
+        table.table.is-hoverable
+          thead.gradient-1
             tr
-              th Projeto
-              th.has-text-centered Grátis
-              th.has-text-centered Starter
-              th.has-text-centered Professional
-              th.has-text-centered Enterprise
-          //- tfoot
-            tr
-              th Investimento
-              td.has-text-centered R$ 0
-              td.has-text-centered R$ 1.500
-                span.subtitle.is-7 /mês
-              td.has-text-centered R$ 1.250
-                span.subtitle.is-7 /mês
-              td.has-text-centered R$ 1.000
-                span.subtitle.is-7 /mês
+              th.has-text-white.padding-1 Recurso
+              th.has-text-white.padding-1 Starter
+              th.has-text-white.padding-1 Professional
+              th.has-text-white.padding-1 Enterprise
           tbody
             tr
-              td Potencial de mercado
-              td.has-text-centered
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
+              td.padding-1 Preço
+              td.padding-1.subtitle.has-text-weight-bold Gratuíto
+              td.padding-1.subtitle.has-text-weight-bold R$ 69,90
+              td.padding-1.subtitle.has-text-weight-bold R$ 179,90
             tr  
-              td Metas e indicadores
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
+              td.padding-1 Website
+              td.padding-1 Sudomínio
+              td.padding-1 Domínio Próprio
+              td.padding-1 Domínio Próprio
             tr  
-              td Planejamento Estratégico
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
+              td.padding-1 Layouts
+              td.padding-1 Template padrão
+              td.padding-1 Template personalizáveis
+              td.padding-1 Layout exclusivos
             tr  
-              td Roadmap de canais
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
+              td.padding-1 Busca de imóveis
+              td.padding-1 Busca no casahub.com.br
+              td.padding-1 Busca no casahub.com.br
+              td.padding-1 Destaque no casahub.com.br
             tr  
-              td Branding e tom de voz
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
+              td.padding-1 Uploads
+              td.padding-1 5 imóveis
+              td.padding-1 30 imóveis
+              td.padding-1 200 imóveis
             tr  
-              td Customer Journey
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
+              td.padding-1 Dicas de negócio
+              td.padding-1 Mercado
+              td.padding-1 Mercado, portais
+              td.padding-1 Mercado, portais, negócios
             tr
-              td MQL, SQL e Leadscoring
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
+              td.padding-1 Usuários
+              td.padding-1 1 usuário
+              td.padding-1 2 usuários
+              td.padding-1 3 usuários
             tr  
-              td Brainstorm à automação
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
+              td.padding-1 Integração com portais
+              td.padding-1 Não incluso
+              td.padding-1 Integração com portais
+              td.padding-1 Integração com portais
             tr  
-              td Churn rate e NPS
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
+              td.padding-1 Dados de desempenho
+              td.padding-1 Não incluso
+              td.padding-1 Não incluso
+              td.padding-1 Relatórios de performance
             tr  
-              td Customer Success
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-            tr  
-              td Product Market Fit
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-            tr  
-              td Portfolio e pricing
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check
-            tr  
-              td Automações para oportunidades
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-grey
-                  i.fas.fa-times
-              td.has-text-centered 
-                span.icon.has-text-success
-                  i.fas.fa-check 
-    
+              td.padding-1 Anúncio nos portais
+              td.padding-1 Não incluso
+              td.padding-1 Anúncios nos portais
+              td.padding-1 Anúncios nos portais
 
 
 </template>

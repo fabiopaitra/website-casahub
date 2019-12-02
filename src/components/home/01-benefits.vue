@@ -12,7 +12,7 @@ section.section.content
     .columns
       .column
         .columns.is-mobile
-          .column.is-half-mobile
+          .column.is-one-third-mobile
             img(src="../../assets/images/anuncie-nos-principais-portais.png", alt="")
           .column
             h3.title.is-4.has-text-weight-light
@@ -20,7 +20,7 @@ section.section.content
             p
               | Nossa solução fornece um conjunto completo e integrado com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
         .columns.is-mobile
-          .column.is-half-mobile
+          .column.is-one-third-mobile
               img(src="../../assets/images/anuncie-nos-principais-portais.png", alt="")
           .column
             h3.title.is-4.has-text-weight-light
@@ -29,7 +29,7 @@ section.section.content
               | Nossa solução fornece um conjunto completo e integrado com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
       .column
         .columns.is-mobile
-          .column.is-half-mobile
+          .column.is-one-third-mobile
             img(src="../../assets/images/anuncie-nos-principais-portais.png", alt="")
           .column
             h3.title.is-4.has-text-weight-light
@@ -37,7 +37,7 @@ section.section.content
             p
               | Nossa solução fornece um conjunto completo e integrado com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
         .columns.is-mobile
-          .column.is-half-mobile
+          .column.is-one-third-mobile
             img(src="../../assets/images/anuncie-nos-principais-portais.png", alt="")
           .column
             h3.title.is-4.has-text-weight-light
