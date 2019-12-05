@@ -20,7 +20,7 @@ section.section.container.content
               td.padding-1.subtitle.has-text-weight-bold R$ 179,90
             tr.has-background-white  
               td.padding-1 Website
-              td.padding-1 Sudomínio
+              td.padding-1 Subdomínio
               td.padding-1 Domínio Próprio
               td.padding-1 Domínio Próprio
             tr.has-background-white  
