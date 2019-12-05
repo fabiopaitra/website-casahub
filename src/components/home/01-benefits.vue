@@ -1,14 +1,8 @@
 <template lang="pug">
-section.section.content
-  .container
-    .columns
-      .column.is-three-fifths.is-offset-one-fifth
-        h2.title.is-2.has-text-centered.is-spaced.has-text-weight-light
-          | O gerenciador de canais das plataformas imobiliárias
-        p.subtitle.is-5
-          strong Imobiliárias utilizam a Casahub para gerenciar a publicação e performance dos seus imóveis. 
-          | Nossa solução fornece automação completa e integrada com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
-  .section.container
+section.section.container.content
+  h2.title.is-2.is-spaced.has-text-centered.has-text-weight-light
+    | Rápido. Simples. Seguro.
+  p.subtitle.has-text-centered O Casahub é a plataforma que sua equipe está solicitando - é a plataforma que os corretores precisam, construído com a tecnologia que os desenvolvedores preferem e integra com todas as suas outras ferramentas.
     .columns
       .column
         .columns.is-mobile
@@ -43,7 +37,7 @@ section.section.content
             h3.title.is-4.has-text-weight-light
               | Direcione a divulgação
             p
-              | Nossa solução fornece um conjunto completo e integrado com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
+              | Feito para imobiliárias que constroem o futuro dos imóveis
 
 </template>
 

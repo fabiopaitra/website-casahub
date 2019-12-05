@@ -15,7 +15,7 @@
         comparison
         //- urgency
         //- faq
-        //- mainCta
+        mainCta
     //- footer
       mainFooter
 
@@ -35,7 +35,7 @@ import certification from '@/components/home/06-certification.vue';
 import socialProof from '@/components/home/07-socialProof.vue';
 import urgency from '@/components/home/09-urgency.vue';
 import faq from '@/components/home/10-faq.vue';
-import mainCta from '@/components/08-mainCta.vue';
+import mainCta from '@/components/home/08-mainCta.vue';
 import mainFooter from '@/components/10-mainFooter.vue';
 
 @Component({

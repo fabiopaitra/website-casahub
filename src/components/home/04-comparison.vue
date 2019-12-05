@@ -1,7 +1,7 @@
 <template lang="pug">
 section.section.container.content
-  p.is-2.title.has-text-centered.has-text-weight-light Cresça com o plano certo
-  p.subtitle.has-text-centered Tudo o que você precisa para gerenciar seus canais e automatizar suas publicações
+  h2.title.is-2.is-spaced.has-text-centered.has-text-weight-light Divulgue seus imóveis, escolha um plano depois
+  p.subtitle.has-text-centered Experimente o Casahub gratuitamente por 14 dias em nosso plano (Pro) com total suporte da nossa equipe
   .columns.container
     .column
       .table-container
@@ -64,7 +64,7 @@ section.section.container.content
               td.padding-1 Não incluso
               td.padding-1 Anúncios nos portais
               td.padding-1 Anúncios nos portais
-
+  .container
 
 </template>
 

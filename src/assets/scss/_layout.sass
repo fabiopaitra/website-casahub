@@ -7,20 +7,23 @@ img
 
 // Set your brand colors
 $main-color-brand: #F1565B
-$green-vue: #3DAF7C
+$green-vue: #00B5A9
 
 // Update Bulma's global variables
 
 //Colors
 $primary: $main-color-brand
 $link: #3DAF7C
-$danger: #00B5A9
-$success: #9D3AD3
+$danger: #9D3AD3
+$success: #A4D037
 $info: #0067E5
 
 .gradient-1
   background: rgb(157,58,211)
   background: linear-gradient(90deg, rgba(157,58,211,1) 0%, rgba(227,70,122,1) 100%)
+.gradient-2
+  background: rgb(157,58,211)
+  background-image: linear-gradient(-180deg,#15212a,#1d2c37)
 
 // Update some of Bulma's component variables
 $family-primary: 'Open Sans', 'lato', sans-serif
@@ -47,6 +50,8 @@ $footer-padding: 1rem
   &.has-background
     position: relative
     overflow: hidden
+  &.has-background-overflow
+    position: relative
   &-background
     position: absolute
     object-fit: cover
@@ -63,6 +68,11 @@ $footer-padding: 1rem
 strong
   font-weight: 700 !important
 
+.z-5
+  z-index: 5  
+.margin-n4
+    position: relative
+    top: -120px
 .margin-n2
   margin-top: -2rem !important
 .margin-2
@@ -88,3 +98,6 @@ strong
   border-bottom-right-radius: 40px
 .t-corner
   border-top-left-radius: 40px
+.b-0  
+  bottom: 0
+

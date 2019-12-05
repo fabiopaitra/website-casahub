@@ -1,24 +1,18 @@
-version: 2
-
+version: 2.1
 jobs:
   build:
     branches:
       ignore: gh-pages
-
     docker:
       - image: cypress/base:8
-
     steps:
       - checkout
-
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}-{{ checksum ".circleci/config.yml" }}
-
       - run: 
           name: Installing dependencies
           command: npm install
-
       - save_cache:
           paths:
             - node_modules
