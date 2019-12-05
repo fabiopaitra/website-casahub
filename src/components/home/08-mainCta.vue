@@ -15,22 +15,22 @@ section.hero.gradient-2.is-bold.has-background-overflow
               .buttons
               a.buttons.button.is-primary.is-medium.is-centered
                 strong Quero participar do beta
-        .columns.is-centered.is-mobile
-          .column.content.is-small.is-narrow
+        .columns.is-centered.content.is-small
+          .column.is-narrow.is-paddingless
             p.has-text-white
               span.icon.has-text-success
                 i.far.fa-check-circle
-              | Teste 14 dias
-          .column.content.is-small.is-narrow
+              | Teste 14 dias 
+          .column.is-narrow.is-paddingless
             p.has-text-white
               span.icon.has-text-success
                 i.far.fa-check-circle
-              | Fase beta de desenvolvimento
-          .column.content.is-small.is-narrow
+              | Fase beta de desenvolvimento 
+          .column.is-narrow.is-paddingless
             p.has-text-white
               span.icon.has-text-success
                 i.far.fa-check-circle
-              | Configuração rápida
+              | Configuração rápida 
   .hero-footer
      figure.image
       img.hero-background.b-0(alt="", src="../../assets/images/grafico-lancamento.svg")
