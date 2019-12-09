@@ -1,8 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Seo from './views/ComoClassificarSEO.vue';
 import Home from './views/Home.vue';
-import Obrigado from './views/Obrigado.vue';
+
 
 const router = new VueRouter({
   mode: 'history',
@@ -23,24 +22,6 @@ const router = new VueRouter({
             name: 'description',
             content:
               'Seus imóveis anunciados nos melhores portais a partir de uma única plataforma web.',
-          },
-        ],
-      },
-    },
-    {
-      path: '/obrigado',
-      name: 'Obrigado',
-      component: Obrigado,
-      meta: {
-        title: 'Sabe pão quentinho saindo do forno? Então, serão seus leads a partir de agora.',
-        metaTags: [
-          {
-            property: 'description',
-            content: 'Já iremos te enviar, espera só nosso consultor criativo parar de dormir que ele já vai montar seu dossiê',
-          },
-          {
-            property: 'og:description',
-            content: 'Já iremos te enviar, espera só nosso consultor criativo parar de dormir que ele já vai montar seu dossiê',
           },
         ],
       },
