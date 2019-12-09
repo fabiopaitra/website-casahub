@@ -70,6 +70,6 @@ section.section.container.content
 
 <script lang="ts">
 export default {
-  name: 'comparison',
+  name: 'price',
 };
 </script>

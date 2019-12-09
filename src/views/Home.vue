@@ -6,16 +6,10 @@
       article
         brands
         benefits
-        //- chartsWhat
         chartsHow
-        certification
-        //- socialProof
-        //- reciprocity
-        //- companies
-        comparison
-        //- urgency
-        //- faq
-        mainCta
+        teamMembers
+        price
+        lastCta
     //- footer
       mainFooter
 
@@ -26,16 +20,10 @@ import { Component, Vue } from 'vue-property-decorator';
 import hero from '@/components/home/00-hero.vue';
 import brands from '@/components/home/01-brands.vue';
 import benefits from '@/components/home/01-benefits.vue';
-import chartsWhat from '@/components/home/02-chartsWhat.vue';
 import chartsHow from '@/components/home/02-chartsHow.vue';
-import reciprocity from '@/components/home/03-reciprocity.vue';
-import comparison from '@/components/home/04-comparison.vue';
-import companies from '@/components/home/05-companies.vue';
-import certification from '@/components/home/06-certification.vue';
-import socialProof from '@/components/home/07-socialProof.vue';
-import urgency from '@/components/home/09-urgency.vue';
-import faq from '@/components/home/10-faq.vue';
-import mainCta from '@/components/home/08-mainCta.vue';
+import price from '@/components/home/04-price.vue';
+import teamMembers from '@/components/home/06-teamMembers.vue';
+import lastCta from '@/components/home/08-lastCta.vue';
 import mainFooter from '@/components/10-mainFooter.vue';
 
 @Component({
@@ -43,16 +31,10 @@ import mainFooter from '@/components/10-mainFooter.vue';
     hero,
     brands,
     benefits,
-    chartsWhat,
     chartsHow,
-    reciprocity,
-    comparison,
-    companies,
-    certification,
-    socialProof,
-    mainCta,
-    urgency,
-    faq,
+    teamMembers,
+    price,
+    lastCta,
     mainFooter,
   },
 })

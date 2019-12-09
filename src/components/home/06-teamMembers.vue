@@ -9,15 +9,17 @@ section.section.container.content
       .message.is-link
         .message-header.padding-02
         .message-body.has-background-white.has-text-centered
-          img(src="../../assets/images/rafaela-tulio.png", alt="Rafaela Tulio - CEO")
-          p.title.is-4 Rafaela Túlio 
+          figure.image.is-200x200.has-image-centered
+            img(src="../../assets/images/rafaela-tulio.png", alt="Rafaela Tulio - CEO")
+          p.title.is-4 Rafaela Túlio
           p.subtitle.is-6 CEO
             p.has-text-dark Responsável desempenho no direcionamento de campanhas e da equipe de vendas no processo de conversão.
     .column
       .message.is-danger
         .message-header.padding-02
         .message-body.has-background-white.has-text-centered
-          img(src="../../assets/images/fabio-paitra.png", alt="Fabio Paitra - CMO")
+          figure.image.is-200x200.has-image-centered
+            img(src="../../assets/images/fabio-paitra.jpg", alt="Fabio Paitra - CMO")
           p.title.is-4 Fabio Paitra
           p.subtitle.is-6 CMO
             p.has-text-dark Responsável desempenho no direcionamento de campanhas e da equipe de vendas no processo de conversão.
@@ -25,7 +27,8 @@ section.section.container.content
       .message.is-info
         .message-header.padding-02
         .message-body.has-background-white.has-text-centered
-          img(src="../../assets/images/elliot-braham.png", alt="Elliot Braham - CTO")
+          figure.image.is-200x200.has-image-centered
+            img(src="../../assets/images/elliot-braham.jpg", alt="Elliot Braham - CTO")
           p.title.is-4 Elliot Braham
           p.subtitle.is-6 CTO
             p.has-text-dark Responsável desempenho no direcionamento de campanhas e da equipe de vendas no processo de conversão.
@@ -33,6 +36,6 @@ section.section.container.content
 
 <script lang="ts">
 export default {
-  name: 'certification',
+  name: 'teamMembers',
 };
 </script>

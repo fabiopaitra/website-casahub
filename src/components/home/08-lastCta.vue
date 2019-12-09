@@ -39,7 +39,7 @@ section.hero.gradient-2.is-bold.has-background-overflow
 
 <script lang="ts">
 export default {
-  name: 'mainCta',
+  name: 'lastCta',
   data() {
     return {
       headline: 'Analise o sentimento do cliente e aumente o conhecimento sobre a marca.',
