@@ -9,11 +9,11 @@ section.hero.gradient-2.is-bold.has-background-overflow
             em Porquê mi casa és su casa.
           .field
             .control.is-expanded.has-icons-left
-              input.input.is-primary.is-medium(type='email', placeholder='Coloque seu E-mail')
+              input.input.is-success.is-medium(type='email', placeholder='Coloque seu E-mail')
               span.icon.is-small.is-left
                 i.fas.fa-envelope
               .buttons
-              a.buttons.button.is-primary.is-medium.is-centered
+              a.buttons.button.is-success.is-medium.is-centered
                 strong Quero participar do beta
         .columns.is-centered.content.is-small
           .column.is-narrow.is-paddingless
@@ -33,7 +33,7 @@ section.hero.gradient-2.is-bold.has-background-overflow
               | Configuração rápida 
   .hero-footer
      figure.image
-      img.hero-background.b-0(alt="", src="../../assets/images/grafico-lancamento.svg")
+      img.hero-background.b-0(alt="Lançamento do Casahub 2020", src="../../assets/images/grafico-lancamento.svg")
 
 </template>
 
