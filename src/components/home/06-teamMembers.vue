@@ -10,7 +10,7 @@ section.section.container.content
         .message-header.padding-02
         .message-body.has-background-white.has-text-centered
           figure.image.is-200x200.has-image-centered
-            img(src="../../assets/images/rafaela-tulio.png", alt="Rafaela Tulio - CEO")
+            img(src="../../assets/images/rafaela-tulio.jpg", alt="Rafaela Tulio - CEO")
           p.title.is-4 Rafaela Túlio
           p.subtitle.is-6 CEO
             p.has-text-dark Responsável desempenho no direcionamento de campanhas e da equipe de vendas no processo de conversão.
