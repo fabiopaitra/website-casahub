@@ -4,7 +4,7 @@ section.section
     .columns.is-vcentered
       .column.is-half.is-paddingless
         figure.image.is-16by9
-          img(src="../../assets/images/relatorios-consolidados.jpg", alt="Relatórios consolidados")
+          img(src="https://res.cloudinary.com/casahub/image/upload/v1575982731/casahub/relatorios-consolidados_mawt8q.jpg", alt="Relatórios consolidados")
       .column.is-one-third.card.b-corner
         .card-content
           img(src="../../assets/images/relatorios-consolidados-icon.png", alt="Relatórios consolidados ícone")
