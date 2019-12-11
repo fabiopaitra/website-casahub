@@ -3,8 +3,10 @@ section.section
   
     .columns.is-vcentered
       .column.is-half.is-paddingless
-        figure.image.is-16by9
-          img(src="../../assets/images/relatorios-consolidados.webp", alt="Relatórios consolidados")
+        picture.image.is-16by9
+          source(type="image/webp", srcset='../../assets/images/rafaela-tulio.webp 1030w, ../../assets/images/relatorios-consolidados-1030.webp 640w' sizes)
+          img(src="../../assets/images/relatorios-consolidados.jpg")
+
       .column.is-one-third.card.b-corner
         .card-content
           img(src="../../assets/images/relatorios-consolidados-icon.webp", alt="Relatórios consolidados ícone")
