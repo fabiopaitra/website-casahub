@@ -4,7 +4,7 @@ section.section
     .columns.is-vcentered
       .column.is-half.is-paddingless
         figure.image.is-16by9
-          img(src="https://res.cloudinary.com/casahub/image/upload/v1575982731/casahub/relatorios-consolidados_mawt8q.webp", alt="Relatórios consolidados")
+          img(src="../../assets/images/relatorios-consolidados.webp", alt="Relatórios consolidados")
       .column.is-one-third.card.b-corner
         .card-content
           img(src="../../assets/images/relatorios-consolidados-icon.webp", alt="Relatórios consolidados ícone")
@@ -32,8 +32,6 @@ section.section
 
 <script lang="ts">
 export default {
-  name: 'chartsHow',
+  name: "chartsHow"
 };
 </script>
-
-

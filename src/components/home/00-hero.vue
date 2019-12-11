@@ -1,6 +1,6 @@
 <template lang="pug">
 .hero.is-fullheight.has-background
-  img.hero-background.has-two-thirds(alt="Museu do Olho - Curitiba", src="https://res.cloudinary.com/casahub/image/upload/v1575982730/casahub/casahub-header-curitiba_eo2t3e.webp")
+  img.hero-background.has-two-thirds(alt="Museu do Olho - Curitiba", src="../../assets/images/casahub-header-curitiba.webp")
   .hero-head
     nav.navbar(role="navigation", aria-label="main navigation")
       .navbar-brand
@@ -40,55 +40,55 @@
               strong Quero participar do beta
       .columns
         .column.is-8.is-offset-2
-          img(src="https://res.cloudinary.com/casahub/image/upload/v1575982730/casahub/casahub-main-print_cpso2l.webp" alt="Web aplicativo Casahub") 
+          img(src="../../assets/images/casahub-main-print.webp" alt="Web aplicativo Casahub") 
 
   </template>
 
 <script>
 export default {
-  name: 'hero',
+  name: "hero",
   props: {
     variant: {
       type: String,
       optional: true,
-      default: 'primary',
+      default: "primary"
     },
     icon: {
       type: String,
-      default: '',
+      default: ""
     },
     header: {
       type: String,
-      default: '',
+      default: ""
     },
     description: {
       type: String,
-      default: '',
+      default: ""
     },
     thirdOptionItems: {
       type: Array,
-      default: () => [],
+      default: () => []
     },
     secondOptionButton: {
       type: Object,
-      default: () => ({}),
+      default: () => ({})
     },
     hubspotFormId: {
       type: String,
-      default: '03cde20b-a4ae-47b5-a8bf-085497cd349d',
+      default: "03cde20b-a4ae-47b5-a8bf-085497cd349d"
     },
     submitButtonClass: {
       type: String,
-      default: 'button is-danger is-fullwidth is-outlined is-inverted',
+      default: "button is-danger is-fullwidth is-outlined is-inverted"
     },
     hubspotPortalId: {
       type: String,
-      default: '5403699',
+      default: "5403699"
     },
     hubspotFormOptions: {
       type: Object,
-      default: () => ({}),
-    },
+      default: () => ({})
+    }
   },
   mounted() {
     this.$nextTick(() => {
@@ -98,9 +98,9 @@ export default {
         target: `#hubspot-form-${this.hubspotFormId}`,
         formId: this.hubspotFormId,
         formInstanceId: new Date().getTime(),
-        cssClass: 'form-group',
+        cssClass: "form-group",
         // submitButtonClass: this.submitButtonClass,
-        ...this.hubspotFormOptions,
+        ...this.hubspotFormOptions
       };
 
       // Prepare GTM
@@ -109,36 +109,34 @@ export default {
       window.hbspt.forms.create({
         ...options,
         onBeforeFormInit: () => {
-          this.$emit('onBeforeFormInit', options);
+          this.$emit("onBeforeFormInit", options);
 
           // Fire GTM
           window.dataLayer.push({
-            event: 'forms-on-before-submit',
+            event: "forms-on-before-submit"
           });
         },
         onFormReady: () => {
-          this.$emit('onFormReady', options);
+          this.$emit("onFormReady", options);
 
           // Fire GTM
           window.dataLayer.push({
-            event: 'forms-on-form-ready',
+            event: "forms-on-form-ready"
           });
         },
         onFormSubmit: () => {
-          this.$emit('onFormSubmit', options);
+          this.$emit("onFormSubmit", options);
 
           // Fire GTM
           window.dataLayer.push({
-            event: 'forms-on-form-submit',
+            event: "forms-on-form-submit"
           });
-        },
+        }
       });
     });
-  },
+  }
 };
 </script>
-
-
 
 <style lang="scss" scoped>
 .subtitle {
