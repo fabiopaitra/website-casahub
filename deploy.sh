@@ -6,6 +6,7 @@ set -e
 # build
 npm run build
 
+cp circle.yml dist
 # navigate into the build output directory
 cd dist
 
