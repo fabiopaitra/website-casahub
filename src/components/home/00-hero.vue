@@ -1,6 +1,6 @@
 <template lang="pug">
 .hero.is-fullheight.has-background
-  img.hero-background.has-two-thirds(alt="Museu do Olho - Curitiba", src="https://res.cloudinary.com/casahub/image/upload/v1575982730/casahub/casahub-header-curitiba_eo2t3e.jpg")
+  img.hero-background.has-two-thirds(alt="Museu do Olho - Curitiba", src="https://res.cloudinary.com/casahub/image/upload/v1575982730/casahub/casahub-header-curitiba_eo2t3e.webp")
   .hero-head
     nav.navbar(role="navigation", aria-label="main navigation")
       .navbar-brand
@@ -40,7 +40,7 @@
               strong Quero participar do beta
       .columns
         .column.is-8.is-offset-2
-          img(src="https://res.cloudinary.com/casahub/image/upload/v1575982730/casahub/casahub-main-print_cpso2l.png" alt="Web aplicativo Casahub") 
+          img(src="https://res.cloudinary.com/casahub/image/upload/v1575982730/casahub/casahub-main-print_cpso2l.webp" alt="Web aplicativo Casahub") 
 
   </template>
 
