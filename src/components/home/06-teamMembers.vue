@@ -9,7 +9,7 @@ section.section.container.content
       .message.is-link
         .message-header.padding-02
         .message-body.has-background-white.has-text-centered
-          figure.image.is-200x200.has-image-centered
+          picture.image.is-200x200.has-image-centered
             source(type="image/webp" srcset="../../assets/images/rafaela-tulio.webp", alt="Rafaela Tulio - CEO")
             img(src="../../assets/images/rafaela-tulio.jpg", alt="Rafaela Tulio - CEO")
           p.title.is-4 Rafaela Túlio
@@ -19,7 +19,7 @@ section.section.container.content
       .message.is-danger
         .message-header.padding-02
         .message-body.has-background-white.has-text-centered
-          figure.image.is-200x200.has-image-centered
+          picture.image.is-200x200.has-image-centered
             source(type="image/webp" srcset="../../assets/images/fabio-paitra.webp", alt="Fabio Paitra - CMO")
             img(src="../../assets/images/fabio-paitra.jpg", alt="Fabio Paitra - CMO")
           p.title.is-4 Fabio Paitra
@@ -29,7 +29,7 @@ section.section.container.content
       .message.is-info
         .message-header.padding-02
         .message-body.has-background-white.has-text-centered
-          figure.image.is-200x200.has-image-centered
+          picture.image.is-200x200.has-image-centered
             source(type="image/webp" srcset="../../assets/images/elliot-braham.webp", alt="Elliot Braham - CTO")
             img(src="../../assets/images/elliot-braham.jpg", alt="Elliot Braham - CTO")
           p.title.is-4 Elliot Braham

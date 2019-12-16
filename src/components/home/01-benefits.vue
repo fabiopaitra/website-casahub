@@ -7,7 +7,7 @@ section.section.container.content
       .column
         .columns.is-mobile
           .column.is-one-third-mobile
-            figure
+            picture
               source(type="image/webp" srcset="../../assets/images/anuncie-nos-principais-portais.webp", alt="Anuncie nos principais portais")
               img(src="../../assets/images/anuncie-nos-principais-portais.jpg", alt="Anuncie nos principais portais")
           .column
@@ -17,7 +17,7 @@ section.section.container.content
               | Nossa solução fornece um conjunto completo e integrado com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
         .columns.is-mobile
           .column.is-one-third-mobile
-            figure
+            picture
               source(type="image/webp" srcset="../../assets/images/dicas-desempenho.webp", alt="Dicas de desempenho")
               img(src="../../assets/images/dicas-desempenho.jpg", alt="Dicas de desempenho")
           .column
@@ -28,7 +28,7 @@ section.section.container.content
       .column
         .columns.is-mobile
           .column.is-one-third-mobile
-            figure
+            picture
               source(type="image/webp" srcset="../../assets/images/acompanhe-performance.webp", alt="Acompanhe a performance")
               img(src="../../assets/images/acompanhe-performance.jpg", alt="Acompanhe a performance")
           .column
@@ -38,7 +38,7 @@ section.section.container.content
               | Nossa solução fornece um conjunto completo e integrado com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
         .columns.is-mobile
           .column.is-one-third-mobile
-            figure
+            picture
               source(type="image/webp" srcset="../../assets/images/direcione-divulgacao.webp", alt="Direcione a divulgação")
               img(src="../../assets/images/direcione-divulgacao.jpg", alt="Direcione a divulgação")
           .column
