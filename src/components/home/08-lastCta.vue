@@ -9,11 +9,12 @@ section.hero.gradient-2.is-bold.has-background-overflow
             em Porquê mi casa és su casa.
           .field
             .control.is-expanded.has-icons-left
-              input.input.is-success.is-medium(type='email', placeholder='Coloque seu E-mail')
-              span.icon.is-small.is-left
-                i.fas.fa-envelope
+              label
+                input.input.is-dark.is-medium(type='email', placeholder='Coloque seu E-mail')
+                span.icon.is-small.is-left
+                  i.fas.fa-envelope
               .buttons
-              a.buttons.button.is-success.is-medium.is-centered
+              a.buttons.button.is-dark.is-medium.is-centered
                 strong Quero participar do beta
         .columns.is-centered.content.is-small
           .column.is-narrow.is-paddingless

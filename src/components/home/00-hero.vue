@@ -1,7 +1,7 @@
 <template lang="pug">
 .hero.is-fullheight.has-background
-  picture
-    source.hero-background.has-two-thirds(type="image/webp" alt="Museu do Olho - Curitiba", src="../../assets/images/casahub-header-curitiba.webp")
+  figure
+    source.hero-background.has-two-thirds(type="image/webp" alt="Museu do Olho - Curitiba", srcset="../../assets/images/casahub-header-curitiba.webp")
     img.hero-background.has-two-thirds(alt="Museu do Olho - Curitiba", src="../../assets/images/casahub-header-curitiba.jpg")
   .hero-head
     nav.navbar(role="navigation", aria-label="main navigation")
@@ -26,11 +26,12 @@
         .column.is-8.is-offset-2
           .field.has-addons.is-hidden-mobile
             .control.is-expanded.has-icons-left
-              input.input.is-primary.is-medium(type='email', placeholder='Coloque seu E-mail')
-              span.icon.is-small.is-left
-                i.fas.fa-envelope
+              label
+                input.input.is-primary.is-medium(type='email', placeholder='Coloque seu E-mail')
+                span.icon.is-small.is-left
+                  i.fas.fa-envelope
             .control
-              a.button.is-primary.is-medium
+              a.button.is-dark.is-medium
                 strong Quero participar do beta
         .field.is-hidden-tablet
           .control.is-expanded.has-icons-left
@@ -38,12 +39,12 @@
             span.icon.is-small.is-left
               i.fas.fa-envelope
             .buttons
-            a.buttons.button.is-primary.is-medium.is-centered
+            a.buttons.button.is-dark.is-medium.is-centered
               strong Quero participar do beta
       .columns
         .column.is-8.is-offset-2
-          picture
-            source(type="image/webp" src="../../assets/images/casahub-main-print.webp" alt="Web aplicativo Casahub") 
+          figure
+            source(type="image/webp" srcset="../../assets/images/casahub-main-print.webp" alt="Web aplicativo Casahub") 
             img(src="../../assets/images/casahub-main-print.png" alt="Web aplicativo Casahub") 
 
   </template>

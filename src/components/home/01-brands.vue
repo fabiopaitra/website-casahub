@@ -7,25 +7,25 @@ section
           | Integrado com dezenas de plataformas 
     .columns.is-mobile.container.is-vcentered
       .column
-        picture
-          source(type="image/webp", src='@/assets/images/certificados/olx.webp', alt='Bing Ads')
-          img(src='@/assets/images/certificados/olx.png', alt='Bing Ads')
+        figure
+          source(type="image/webp" srcset='@/assets/images/certificados/olx.webp', alt="OLX")
+          img(src='@/assets/images/certificados/olx.png', alt='OLX')
       .column
-        picture
-          source(type="image/webp", src='@/assets/images/certificados/imovelweb.webp', alt='Google Partner')
-          img(src='@/assets/images/certificados/imovelweb.png', alt='Google Partner')
+        figure
+          source(type="image/webp" srcset='@/assets/images/certificados/imovelweb.webp', alt="Imóvel Web")
+          img(src='@/assets/images/certificados/imovelweb.png', alt="Imóvel Web")
       .column
-        picture
-          source(type="image/webp", src='@/assets/images/certificados/vivareal.webp', alt='Revendedor Google autorizado')
-          img(src='@/assets/images/certificados/vivareal.png', alt='Revendedor Google autorizado')
+        figure
+          source(type="image/webp" srcset='@/assets/images/certificados/vivareal.webp', alt="Viva Real")
+          img(src='@/assets/images/certificados/vivareal.png', alt="Viva Real")
       .column
-        picture
-          source(type="image/webp", src='@/assets/images/certificados/zap.webp', alt='Parceiro certificado Google')
-          img(src='@/assets/images/certificados/zap.png', alt='Parceiro certificado Google')
+        figure
+          source(type="image/webp" srcset='@/assets/images/certificados/zap.webp', alt="Zap Imóveis")
+          img(src='@/assets/images/certificados/zap.png', alt="Zap Imóveis")
       .column
-        picture
-          source(type="image/webp", src='@/assets/images/certificados/mercado-livre.webp', alt='Facebook expert')
-          img(src='@/assets/images/certificados/mercado-livre.png', alt='Facebook expert')
+        figure
+          source(type="image/webp" srcset='@/assets/images/certificados/mercado-livre.webp', alt="Mercado Livre")
+          img(src='@/assets/images/certificados/mercado-livre.png', alt="Mercado Livre")
   .section
 
       
