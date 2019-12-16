@@ -16,7 +16,7 @@ const router = new VueRouter({
       name: 'Home',
       component: Home,
       meta: {
-        title: 'Seus imóveis anunciados nos melhores portais - casahub',
+        title: 'Seus imóveis anunciados nos melhores portais - Casahub',
         metaTags: [
           {
             name: 'description',

@@ -26,7 +26,7 @@
           .field.has-addons.is-hidden-mobile
             .control.is-expanded.has-icons-left
               label
-                input.input.is-primary.is-medium(type='email', placeholder='Coloque seu E-mail')
+                input.input.is-primary.is-medium(type='email', placeholder='Inserir meu E-mail')
                 span.icon.is-small.is-left
                   i.fas.fa-envelope
             .control
