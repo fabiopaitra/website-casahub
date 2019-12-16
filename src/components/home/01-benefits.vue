@@ -7,7 +7,9 @@ section.section.container.content
       .column
         .columns.is-mobile
           .column.is-one-third-mobile
-            img(src="../../assets/images/anuncie-nos-principais-portais.webp", alt="Anuncie nos principais portais")
+            picture
+              source(type="image/webp" src="../../assets/images/anuncie-nos-principais-portais.webp", alt="Anuncie nos principais portais")
+              img(src="../../assets/images/anuncie-nos-principais-portais.jpg", alt="Anuncie nos principais portais")
           .column
             h3.title.is-4.has-text-weight-light
               | Anuncie nos principais portais
@@ -15,7 +17,9 @@ section.section.container.content
               | Nossa solução fornece um conjunto completo e integrado com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
         .columns.is-mobile
           .column.is-one-third-mobile
-            img(src="../../assets/images/dicas-desempenho.webp", alt="Dicas de desempenho")
+            picture
+              source(type="image/webp" src="../../assets/images/dicas-desempenho.webp", alt="Dicas de desempenho")
+              img(src="../../assets/images/dicas-desempenho.jpg", alt="Dicas de desempenho")
           .column
             h3.title.is-4.has-text-weight-light
               | Receba dicas de desempenho
@@ -24,7 +28,9 @@ section.section.container.content
       .column
         .columns.is-mobile
           .column.is-one-third-mobile
-            img(src="../../assets/images/acompanhe-performance.webp", alt="Acompanhe a performance")
+            picture
+              source(type="image/webp" src="../../assets/images/acompanhe-performance.webp", alt="Acompanhe a performance")
+              img(src="../../assets/images/acompanhe-performance.jpg", alt="Acompanhe a performance")
           .column
             h3.title.is-4.has-text-weight-light
               | Acompanhe a performance
@@ -32,7 +38,9 @@ section.section.container.content
               | Nossa solução fornece um conjunto completo e integrado com os principais marketplaces de venda e aluguel de imóveis do Brasil e do mundo.
         .columns.is-mobile
           .column.is-one-third-mobile
-            img(src="../../assets/images/direcione-divulgacao.webp", alt="Direcione a divulgação")
+            picture
+              source(type="image/webp" src="../../assets/images/direcione-divulgacao.webp", alt="Direcione a divulgação")
+              img(src="../../assets/images/direcione-divulgacao.jpg", alt="Direcione a divulgação")
           .column
             h3.title.is-4.has-text-weight-light
               | Direcione a divulgação

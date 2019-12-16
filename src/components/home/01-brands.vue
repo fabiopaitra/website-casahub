@@ -7,15 +7,25 @@ section
           | Integrado com dezenas de plataformas 
     .columns.is-mobile.container.is-vcentered
       .column
-        img(src='@/assets/images/certificados/olx.webp', alt='Bing Ads')
+        picture
+          source(type="image/webp", src='@/assets/images/certificados/olx.webp', alt='Bing Ads')
+          img(src='@/assets/images/certificados/olx.png', alt='Bing Ads')
       .column
-        img(src='@/assets/images/certificados/imovelweb.webp', alt='Google Partner')
+        picture
+          source(type="image/webp", src='@/assets/images/certificados/imovelweb.webp', alt='Google Partner')
+          img(src='@/assets/images/certificados/imovelweb.png', alt='Google Partner')
       .column
-        img(src='@/assets/images/certificados/vivareal.webp', alt='Revendedor Google autorizado')
+        picture
+          source(type="image/webp", src='@/assets/images/certificados/vivareal.webp', alt='Revendedor Google autorizado')
+          img(src='@/assets/images/certificados/vivareal.png', alt='Revendedor Google autorizado')
       .column
-        img(src='@/assets/images/certificados/zap.webp', alt='Parceiro certificado Google')
+        picture
+          source(type="image/webp", src='@/assets/images/certificados/zap.webp', alt='Parceiro certificado Google')
+          img(src='@/assets/images/certificados/zap.png', alt='Parceiro certificado Google')
       .column
-        img(src='@/assets/images/certificados/mercado-livre.webp', alt='Facebook expert')
+        picture
+          source(type="image/webp", src='@/assets/images/certificados/mercado-livre.webp', alt='Facebook expert')
+          img(src='@/assets/images/certificados/mercado-livre.png', alt='Facebook expert')
   .section
 
       
