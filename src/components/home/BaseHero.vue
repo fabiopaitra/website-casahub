@@ -30,7 +30,7 @@
                 span.icon.is-small.is-left
                   i.fas.fa-envelope
             .control
-              a.button.is-dark.is-medium
+              a.button.is-primary.is-medium
                 strong Quero participar do beta
         .field.is-hidden-tablet
           .control.is-expanded.has-icons-left
@@ -39,7 +39,7 @@
               span.icon.is-small.is-left
                 i.fas.fa-envelope
             .buttons
-            a.buttons.button.is-dark.is-medium.is-centered
+            a.buttons.button.is-primary.is-medium.is-centered
               strong Quero participar do beta
       .columns
         .column.is-8.is-offset-2

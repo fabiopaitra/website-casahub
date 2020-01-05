@@ -10,11 +10,11 @@ section.hero.gradient-2.is-bold.has-background-overflow
           .field
             .control.is-expanded.has-icons-left
               label
-                input.input.is-dark.is-medium(type='email', placeholder='Coloque seu E-mail')
+                input.input.is-primary.is-medium(type='email', placeholder='Coloque seu E-mail')
                 span.icon.is-small.is-left
                   i.fas.fa-envelope
               .buttons
-              a.buttons.button.is-dark.is-medium.is-centered
+              a.buttons.button.is-primary.is-medium.is-centered
                 strong Quero participar do beta
         .columns.is-centered.content.is-small
           .column.is-narrow.is-paddingless
