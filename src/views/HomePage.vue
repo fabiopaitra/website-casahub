@@ -17,14 +17,14 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import hero from '@/components/home/00-hero.vue';
-import brands from '@/components/home/01-brands.vue';
-import benefits from '@/components/home/01-benefits.vue';
-import chartsHow from '@/components/home/02-chartsHow.vue';
-import price from '@/components/home/04-price.vue';
-import teamMembers from '@/components/home/06-teamMembers.vue';
-import lastCta from '@/components/home/08-lastCta.vue';
-import mainFooter from '@/components/10-mainFooter.vue';
+import hero from '@/components/home/BaseHero.vue';
+import brands from '@/components/home/BaseBrands.vue';
+import benefits from '@/components/home/BaseBenefits.vue';
+import chartsHow from '@/components/home/BaseChartsHow.vue';
+import price from '@/components/home/BasePrice.vue';
+import teamMembers from '@/components/home/BaseTeamMembers.vue';
+import lastCta from '@/components/home/BaseLastCta.vue';
+import mainFooter from '@/components/BaseMainFooter.vue';
 
 @Component({
   components: {
