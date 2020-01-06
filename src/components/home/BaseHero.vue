@@ -1,5 +1,7 @@
 <template lang="pug">
-.hero.is-dark.is-bold
+//- .hero.is-dark.is-bold
+.hero.has-background.is-dark.is-bold
+  img.hero-background(alt="Casahub", src="@/assets/images/bg-home.svg")
   .hero-body
     .container.has-text-centered
       h1.title.is-size-1.has-text-weight-light.has-text-white.is-size-4-mobile.is-spaced
@@ -35,7 +37,7 @@
               img(src="@/assets/images/casahub-dashboard-publicacao.png" alt="Web aplicativo Casahub")
       BaseBrands
       
-  img(alt="Lançamento do Casahub 2020", src="@/assets/images/curva.svg", style="max-width:105%")
+  img(alt="Lançamento do Casahub 2020", src="@/assets/images/curva.svg", style="z-index:100; padding: 0 !important; margin 0 !important;")
 
 </template>
 
