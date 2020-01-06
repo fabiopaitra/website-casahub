@@ -5,7 +5,6 @@
       hero
     main
       article
-        brands
         benefits
         chartsHow
         teamMembers
@@ -20,7 +19,6 @@
 import { Component, Vue } from 'vue-property-decorator';
 import mainHeader from '@/components/BaseMainHeader.vue';
 import hero from '@/components/home/BaseHero.vue';
-import brands from '@/components/home/BaseBrands.vue';
 import benefits from '@/components/home/BaseBenefits.vue';
 import chartsHow from '@/components/home/BaseChartsHow.vue';
 import price from '@/components/home/BasePrice.vue';
@@ -32,7 +30,6 @@ import mainFooter from '@/components/BaseMainFooter.vue';
   components: {
     mainHeader,
     hero,
-    brands,
     benefits,
     chartsHow,
     teamMembers,

@@ -10,7 +10,6 @@
       span(aria-hidden='true')    
   .navbar-menu
     .navbar-start
-      //- router-link.navbar-item(:to="{ name: 'Home' }") Home
     .navbar-end
       .navbar-item
         .buttons
