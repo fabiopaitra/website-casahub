@@ -1,6 +1,7 @@
 <template lang="pug">
   div.has-background-light
     header
+      mainHeader
       hero
     main
       article
@@ -10,13 +11,14 @@
         teamMembers
         price
         lastCta
-    //- footer
+    footer
       mainFooter
 
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import mainHeader from '@/components/BaseMainHeader.vue';
 import hero from '@/components/home/BaseHero.vue';
 import brands from '@/components/home/BaseBrands.vue';
 import benefits from '@/components/home/BaseBenefits.vue';
@@ -28,6 +30,7 @@ import mainFooter from '@/components/BaseMainFooter.vue';
 
 @Component({
   components: {
+    mainHeader,
     hero,
     brands,
     benefits,
