@@ -15,8 +15,6 @@ $info: #00D3D3
 $dark: #0b2840
 $black: #1B2326
 
-$subtitle-line-height: 1.5 !important;
-
 .gradient-1
   background: rgb(157,58,211)
   background: linear-gradient(90deg, rgba(157,58,211,1) 0%, rgba(227,70,122,1) 100%)
@@ -36,6 +34,15 @@ $footer-padding: 1rem
   margin-right: auto !important
 
 // Custom CSS
+
+.has-curve::after
+  content: ""
+  background-image: url('../assets/images/curva.svg')
+  z-index: 100
+  display: block
+  background-position-x: center
+  background-size: 102vw
+  padding-bottom: 2.7vw  
 
 .tag
   &.is-outlined

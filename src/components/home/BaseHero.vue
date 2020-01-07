@@ -1,16 +1,16 @@
 <template lang="pug">
 //- .hero.is-dark.is-bold
-.hero.has-background.is-dark.is-bold
+.hero.has-background.is-dark.has-curve
   img.hero-background(alt="Casahub", src="@/assets/images/bg-home.svg")
-  .hero-body
+  .hero-header.has-text-centered-mobile
     .columns.container
       .column.content.section.is-two-fifths
-        span.tag.is-rounded.is-primary.is-outlined.has-text-weight-bold Casahub v0.2  
-          span.has-text-weight-light(style="margin-left:10px") Ajude a construir seu próximo integrador
-        h1.title.is-size-3.is-spaced
-          | Seus imóveis publicados nos portais a partir de uma única plataforma web.
-        h2.subtitle.is-size-5.has-text-weight-light.has-text-grey-lighter
-          | Reduza seu ciclo de vendas. Segurança na integração de anúncios, tecnologia de alta performance, responsiva e dados em tempo real.
+        span.tag.is-rounded.is-primary.is-outlined.has-text-weight-bold Casahub 0.1  
+          span.has-text-weight-normal(style="margin-left:10px") Ajude a construir seu gerenciador de canais
+        h1.title.is-size-3.is-size-4-mobile.is-spaced
+          | Utilize a Casahub para gerenciar seus canais de forma integrada e rápida
+        h2.subtitle.is-size-5.is-size-6-mobile.has-text-weight-normal.has-text-grey-lighter
+          | Reduza seu tempo e investimento. Segurança, alta performance e dados em tempo real na integração dos seus anúncios.
         .content
           .field.has-addons.is-hidden-mobile
             .control.is-expanded.has-icons-left
@@ -31,29 +31,12 @@
               a.buttons.button.is-primary.is-medium.is-centered
                 strong Participar do beta
             
-
-        .columns.is-small.has-text-centered.has-text-left-tablet(style="margin-top:10px")
-          .column.is-narrow.is-paddingless(style="margin-left:10px")
-            p
-              span.icon.has-text-success
-                i.far.fa-check-circle
-              | Teste 30 dias 
-          .column.is-narrow.is-paddingless(style="margin-left:10px")
-            p
-              span.icon.has-text-success
-                i.far.fa-check-circle
-              | Treinamento
-          .column.is-narrow.is-paddingless(style="margin-left:10px")
-            p
-              span.icon.has-text-success
-                i.far.fa-check-circle
-              | Configuração rápida 
-      .column
+        BaseCheckBenefits
+      .column.is-hidden-mobile
         picture
           source(type="image/webp" srcset="@/assets/images/casahub-dashboard-publicacao.webp" alt="Web aplicativo Casahub") 
           img(src="@/assets/images/casahub-dashboard-publicacao.png" alt="Web aplicativo Casahub")
   BaseBrands
-  img(alt="Lançamento do Casahub 2020", src="@/assets/images/curva.svg", style="z-index:100;")
 
 </template>
 
@@ -61,6 +44,7 @@
 export default {
   components: {
     BaseBrands,
+    BaseCheckBenefits,
   },
   name: 'hero',
   props: {
@@ -154,4 +138,8 @@ export default {
 };
 
 import BaseBrands from '@/components/home/BaseBrands.vue';
+import BaseCheckBenefits from '@/components/home/BaseCheckBenefits.vue';
 </script>
+
+<style lang="scss" scoped>
+</style>

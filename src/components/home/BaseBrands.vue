@@ -2,14 +2,14 @@
 .container.content(style="z-index:100;")
   .columns
     .column.is-uppercase
-      h2.title.is-7.has-text-centered
-        | Integrado com dezenas de plataformas 
-  .columns.is-mobile.is-vcentered
+      h2.title.is-7.has-text-centered.has-text-weight-normal
+        | Integrado com dezenas de plataformas
+  .columns.is-mobile.is-vcentered.column
     .column
       picture
         source(type="image/webp" srcset='@/assets/images/certificados/olx.webp', alt="OLX")
         img(src='@/assets/images/certificados/olx.png', alt='OLX')
-    .column
+    .column.is-hidden-mobile
       picture
         source(type="image/webp" srcset='@/assets/images/certificados/imovelweb.webp', alt="Imóvel Web")
         img(src='@/assets/images/certificados/imovelweb.png', alt="Imóvel Web")
