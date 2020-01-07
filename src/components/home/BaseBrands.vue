@@ -1,8 +1,8 @@
 <template lang="pug">
-section
+.container.content(style="z-index:100;")
   .columns
     .column.is-uppercase
-      h2.title.is-6.has-text-centered
+      h2.title.is-7.has-text-centered
         | Integrado com dezenas de plataformas 
   .columns.is-mobile.is-vcentered
     .column

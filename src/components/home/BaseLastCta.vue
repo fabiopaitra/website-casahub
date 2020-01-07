@@ -34,7 +34,7 @@ section.hero.gradient-2.is-bold.has-background-overflow
               | Configuração rápida 
   .hero-footer
      picture.image
-      img.hero-background.b-0(alt="Lançamento do Casahub 2020", src="../../assets/images/grafico-lancamento.svg")
+      img.hero-background.b-0(alt="Lançamento do Casahub 2020", src="@/assets/images/grafico-lancamento.svg")
 
 </template>
 

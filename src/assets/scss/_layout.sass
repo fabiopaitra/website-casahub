@@ -5,13 +5,17 @@ img
 .is-secondary
   font-family: family-secondary
 
-//Colors
-$primary: #00D3D3
+//Colors 
+$primary: #E7495F 
 $link: #0E6E8D
-$danger: #E3467A
-$success: #3CAE7C
-$info: #753AD3
+// $danger: #E3467A
+// $warning: #753AD3
+// $success: #3CAE7C
+$info: #00D3D3
 $dark: #0b2840
+$black: #1B2326
+
+$subtitle-line-height: 1.5 !important;
 
 .gradient-1
   background: rgb(157,58,211)
@@ -32,6 +36,14 @@ $footer-padding: 1rem
   margin-right: auto !important
 
 // Custom CSS
+
+.tag
+  &.is-outlined
+    background-color: transparent !important;
+    border-color: #E7495F;
+    border-style: solid;
+    color: #fff !important;
+    border-width: thin
 
 .header-image-home
   background-image: url("http://orig14.deviantart.net/7584/f/2015/181/2/7/flat_mountains_landscape_by_ggiuliafilippini-d8zdbco.webp")

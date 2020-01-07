@@ -3,15 +3,15 @@
 .hero.has-background.is-dark.is-bold
   img.hero-background(alt="Casahub", src="@/assets/images/bg-home.svg")
   .hero-body
-    .container.has-text-centered
-      h1.title.is-size-1.has-text-weight-light.has-text-white.is-size-4-mobile.is-spaced
-        | Seus imóveis anunciados nos melhores portais 
-        strong a partir de uma única plataforma web.
-      h2.subtitle.has-text-weight-light.has-text-white.is-size-6-mobile
-        strong.has-text-white Reduza o ciclo de vendas. 
-        | Velocidade e inteligência na integração de anúncios, investimentos otimizados e melhor performance.
-      .content
-        .column.is-8.is-offset-2
+    .columns.container
+      .column.content.section.is-two-fifths
+        span.tag.is-rounded.is-primary.is-outlined.has-text-weight-bold Casahub v0.2  
+          span.has-text-weight-light(style="margin-left:10px") Ajude a construir seu próximo integrador
+        h1.title.is-size-3.is-spaced
+          | Seus imóveis publicados nos portais a partir de uma única plataforma web.
+        h2.subtitle.is-size-5.has-text-weight-light.has-text-grey-lighter
+          | Reduza seu ciclo de vendas. Segurança na integração de anúncios, tecnologia de alta performance, responsiva e dados em tempo real.
+        .content
           .field.has-addons.is-hidden-mobile
             .control.is-expanded.has-icons-left
               label
@@ -20,24 +20,40 @@
                   i.fas.fa-envelope
             .control
               a.button.is-primary.is-medium
-                strong Quero participar do beta
-        .field.is-hidden-tablet
-          .control.is-expanded.has-icons-left
-            label
-              input.input.is-primary.is-medium(type='email', placeholder='Coloque seu E-mail')
-              span.icon.is-small.is-left
-                i.fas.fa-envelope
-            .buttons
-            a.buttons.button.is-primary.is-medium.is-centered
-              strong Quero participar do beta
-      .columns
-        .column.is-6.is-offset-3
-            picture
-              source(type="image/webp" srcset="@/assets/images/casahub-dashboard-publicacao.webp" alt="Web aplicativo Casahub") 
-              img(src="@/assets/images/casahub-dashboard-publicacao.png" alt="Web aplicativo Casahub")
-      BaseBrands
-      
-  img(alt="Lançamento do Casahub 2020", src="@/assets/images/curva.svg", style="z-index:100; padding: 0 !important; margin 0 !important;")
+                strong Participar do beta
+          .field.is-hidden-tablet
+            .control.is-expanded.has-icons-left
+              label
+                input.input.is-primary.is-medium(type='email', placeholder='Coloque seu E-mail')
+                span.icon.is-small.is-left
+                  i.fas.fa-envelope
+              .buttons
+              a.buttons.button.is-primary.is-medium.is-centered
+                strong Participar do beta
+            
+
+        .columns.is-small.has-text-centered.has-text-left-tablet(style="margin-top:10px")
+          .column.is-narrow.is-paddingless(style="margin-left:10px")
+            p
+              span.icon.has-text-success
+                i.far.fa-check-circle
+              | Teste 30 dias 
+          .column.is-narrow.is-paddingless(style="margin-left:10px")
+            p
+              span.icon.has-text-success
+                i.far.fa-check-circle
+              | Treinamento
+          .column.is-narrow.is-paddingless(style="margin-left:10px")
+            p
+              span.icon.has-text-success
+                i.far.fa-check-circle
+              | Configuração rápida 
+      .column
+        picture
+          source(type="image/webp" srcset="@/assets/images/casahub-dashboard-publicacao.webp" alt="Web aplicativo Casahub") 
+          img(src="@/assets/images/casahub-dashboard-publicacao.png" alt="Web aplicativo Casahub")
+  BaseBrands
+  img(alt="Lançamento do Casahub 2020", src="@/assets/images/curva.svg", style="z-index:100;")
 
 </template>
 

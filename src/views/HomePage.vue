@@ -7,7 +7,7 @@
       article
         benefits
         chartsHow
-        teamMembers
+        //- teamMembers
         price
         lastCta
     footer
