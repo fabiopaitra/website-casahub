@@ -4,14 +4,14 @@
     .field.has-addons.is-hidden-mobile
       .control.is-expanded.has-icons-left
         label
-          input.input.is-primary(type='email', v-model='email' placeholder='Inserir meu E-mail')
-          span.icon.is-small.is-left(v-if='!feedback')
+          input.input.is-primary(type='email', v-once='email' placeholder='Inserir meu E-mail')
+          span.icon.is-small.is-left
             i.fas.fa-envelope
         p.help.is-danger(v-if='feedback') Email inválido
       .control
         label
           input.button.is-primary(type='submit', value='Participar do beta')
-  form(@submit.prevent='addEmail')
+  //- form(@submit.prevent='addEmail')
     .field.is-hidden-tablet
       .control.is-expanded.has-icons-left
         label
@@ -45,7 +45,10 @@ export default {
           .then(() => {
             this.$router.push({ name: 'Home' }).catch(err => {
               console.log(err);
-              //TODO SEND EVENT TO TAG MANAGER AND OPEN MODAL
+              // TODO SEND EVENT TO TAG MANAGER
+              // TODO OPEN THANK YOU MODAL
+              // TODO CHECK IF USER IS ALREADY SIGN UP
+              // TODO CHECK IF EMAIL IS ALREADY REGISTERED
             });
           });
       } else {
