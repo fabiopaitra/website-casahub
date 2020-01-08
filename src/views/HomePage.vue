@@ -2,7 +2,7 @@
   div.has-background-light
     header
       mainHeader
-      hero
+      BaseHero
     main
       article
         benefits
@@ -18,7 +18,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import mainHeader from '@/components/BaseMainHeader.vue';
-import hero from '@/components/home/BaseHero.vue';
+import BaseHero from '@/components/home/BaseHero.vue';
 import benefits from '@/components/home/BaseBenefits.vue';
 import chartsHow from '@/components/home/BaseChartsHow.vue';
 import price from '@/components/home/BasePrice.vue';
@@ -29,7 +29,7 @@ import mainFooter from '@/components/BaseMainFooter.vue';
 @Component({
   components: {
     mainHeader,
-    hero,
+    BaseHero,
     benefits,
     chartsHow,
     teamMembers,

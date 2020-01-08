@@ -2,33 +2,37 @@
 //- .hero.is-dark.is-bold
 .hero.has-background.is-dark.has-curve
   img.hero-background(alt="Casahub", src="@/assets/images/bg-home.svg")
-  .hero-header.has-text-centered-mobile
-    .columns.container
-      .column.content.section.is-two-fifths
+  .hero-body.has-text-centered-mobile
+    .columns.container.content
+      .column.is-two-fifths
         span.tag.is-rounded.is-primary.is-outlined.has-text-weight-bold Casahub 0.1  
           span.has-text-weight-normal(style="margin-left:10px") Ajude a construir seu gerenciador de canais
         h1.title.is-size-3.is-size-4-mobile.is-spaced
           | Utilize a Casahub para gerenciar seus canais de forma integrada e rápida
         h2.subtitle.is-size-5.is-size-6-mobile.has-text-weight-normal.has-text-grey-lighter
           | Reduza seu tempo e investimento. Segurança, alta performance e dados em tempo real na integração dos seus anúncios.
-        .content
+        form(@submit.prevent='addEmail')
           .field.has-addons.is-hidden-mobile
-            .control.is-expanded.has-icons-left
+            .control.is-expanded.has-icons-left.has-icon-right
               label
-                input.input.is-primary.is-medium(type='email', placeholder='Inserir meu E-mail')
-                span.icon.is-small.is-left
+                input.input.is-primary#email-desktop(type='email', name='email' v-model='email' placeholder='Inserir meu E-mail')
+                span.icon.is-small.is-left(v-if='!feedback')
                   i.fas.fa-envelope
+                span.icon.is-small.is-left(v-if='feedback')
+                  i.fas.fa-exclamation-triangle
+              p.help.is-danger(v-if='feedback') Email inválido
             .control
-              a.button.is-primary.is-medium
-                strong Participar do beta
+              label
+                input.button.is-primary(type='submit' value='Participar do beta')
+                  //- strong Participar do beta
           .field.is-hidden-tablet
             .control.is-expanded.has-icons-left
               label
-                input.input.is-primary.is-medium(type='email', placeholder='Coloque seu E-mail')
+                input.input.is-primary#email-mobile(type='email', placeholder='Coloque seu E-mail')
                 span.icon.is-small.is-left
                   i.fas.fa-envelope
               .buttons
-              a.buttons.button.is-primary.is-medium.is-centered
+              a.buttons.button.is-primary.is-centered#submit-email-mobile
                 strong Participar do beta
             
         BaseCheckBenefits
@@ -41,105 +45,39 @@
 </template>
 
 <script>
+import db from '@/firebase/init';
+
 export default {
   components: {
     BaseBrands,
     BaseCheckBenefits,
   },
-  name: 'hero',
-  props: {
-    variant: {
-      type: String,
-      optional: true,
-      default: 'primary',
-    },
-    icon: {
-      type: String,
-      default: '',
-    },
-    header: {
-      type: String,
-      default: '',
-    },
-    description: {
-      type: String,
-      default: '',
-    },
-    thirdOptionItems: {
-      type: Array,
-      default: () => [],
-    },
-    secondOptionButton: {
-      type: Object,
-      default: () => ({}),
-    },
-    hubspotFormId: {
-      type: String,
-      default: '03cde20b-a4ae-47b5-a8bf-085497cd349d',
-    },
-    submitButtonClass: {
-      type: String,
-      default: 'button is-danger is-fullwidth is-outlined is-inverted',
-    },
-    hubspotPortalId: {
-      type: String,
-      default: '5403699',
-    },
-    hubspotFormOptions: {
-      type: Object,
-      default: () => ({}),
-    },
+  name: 'BaseHero',
+  data() {
+    return {
+      email: null,
+      feedback: null,
+    };
   },
-  mounted() {
-    this.$nextTick(() => {
-      // Documentation: https://developers.hubspot.com/docs/methods/forms/advanced_form_options
-      const options = {
-        portalId: this.hubspotPortalId,
-        target: `#hubspot-form-${this.hubspotFormId}`,
-        formId: this.hubspotFormId,
-        formInstanceId: new Date().getTime(),
-        cssClass: 'form-group',
-        // submitButtonClass: this.submitButtonClass,
-        ...this.hubspotFormOptions,
-      };
-
-      // Prepare GTM
-      window.dataLayer = window.dataLayer || [];
-
-      window.hbspt.forms.create({
-        ...options,
-        onBeforeFormInit: () => {
-          this.$emit('onBeforeFormInit', options);
-
-          // Fire GTM
-          window.dataLayer.push({
-            event: 'forms-on-before-submit',
+  methods: {
+    addEmail() {
+      if (this.email) {
+        this.feedback = null;
+        db.collection('users-signup-beta')
+          .add({
+            email: this.email,
+          })
+          .then(() => {
+            this.$router.push({ name: 'Home' }).catch(err => {
+              console.log(err);
+            });
           });
-        },
-        onFormReady: () => {
-          this.$emit('onFormReady', options);
-
-          // Fire GTM
-          window.dataLayer.push({
-            event: 'forms-on-form-ready',
-          });
-        },
-        onFormSubmit: () => {
-          this.$emit('onFormSubmit', options);
-
-          // Fire GTM
-          window.dataLayer.push({
-            event: 'forms-on-form-submit',
-          });
-        },
-      });
-    });
+      } else {
+        this.feedback = 'Insira seu e-mail';
+      }
+    },
   },
 };
-
 import BaseBrands from '@/components/home/BaseBrands.vue';
 import BaseCheckBenefits from '@/components/home/BaseCheckBenefits.vue';
 </script>
-
-<style lang="scss" scoped>
-</style>
