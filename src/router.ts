@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from './views/HomePage.vue';
+import Home from '@/views/HomePage.vue';
+import SignUp from '@/views/SignUp/SignUp.vue';
 
 
 const router = new VueRouter({
@@ -16,12 +17,27 @@ const router = new VueRouter({
       name: 'Home',
       component: Home,
       meta: {
-        title: 'Seus imóveis anunciados nos melhores portais - Casahub',
+        title: 'Gerencie seus canais de forma integrada e segura - Casahub',
         metaTags: [
           {
             name: 'description',
             content:
-              'Seus imóveis anunciados nos melhores portais a partir de uma única plataforma web.',
+              'Imóveis anunciados de forma integrada, rápida e segura. Reduza seu tempo e investimento partir de uma única plataforma web.',
+          },
+        ],
+      },
+    },
+    {
+      path: '/signup',
+      name: 'SignUp',
+      component: SignUp,
+      meta: {
+        title: 'Comece a usar o Casahub',
+        metaTags: [
+          {
+            name: 'description',
+            content:
+              'Reduza seu tempo e investimento. Segurança, alta performance e dados em tempo real na integração dos seus anúncios.',
           },
         ],
       },

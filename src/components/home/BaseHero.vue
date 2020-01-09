@@ -10,29 +10,7 @@
           | Utilize a Casahub para gerenciar seus canais de forma integrada e rápida
         h2.subtitle.is-size-5.is-size-6-mobile.has-text-weight-normal.has-text-grey-lighter
           | Reduza seu tempo e investimento. Segurança, alta performance e dados em tempo real na integração dos seus anúncios.
-        BaseFormSubmit
-        //- form(@submit.prevent='addEmail')
-          .field.has-addons.is-hidden-mobile
-            .control.is-expanded.has-icons-left
-              label
-                input.input.is-primary(type='email', v-model='email' placeholder='Inserir meu E-mail')
-                span.icon.is-small.is-left(v-if='!feedback')
-                  i.fas.fa-envelope
-              p.help.is-danger(v-if='feedback') Email inválido
-            .control
-              label
-                input.button.is-primary(type='submit', value='Participar do beta')
-          form(@submit.prevent='addEmail')
-            .field.is-hidden-tablet
-              .control.is-expanded.has-icons-left
-                label
-                  input.input.is-primary(type='email', v-model='email' placeholder='Inserir meu E-mail')
-                  span.icon.is-small.is-left
-                    i.fas.fa-envelope
-                .buttons
-                input.button.is-primary.is-fullwidth(type='submit', value='Participar do beta')
-              p.help.is-danger(v-if='feedback') Email inválido
-              
+        BaseFormSubmit      
         BaseCheckBenefits
       .column.is-hidden-mobile
         picture
